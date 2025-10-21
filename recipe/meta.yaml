@@ -1,6 +1,6 @@
 {% set python_min = python_min|default("0.1a0") %}
 {% set name = "django-currentuser" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_currentuser-{{ version }}.tar.gz
-  sha256: 911e695955d8875da33a910e637d2c76968287cba896c99888fd5e3fa6fad2af
+  sha256: 3805fe2ef2a85456c6b791417e0bf782e62c8d8fa021c280d96624b1e942e504
 
 build:
   noarch: python
